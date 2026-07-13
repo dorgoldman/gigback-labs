@@ -1,0 +1,123 @@
+GIGBACK LABS — MANUAL TASKS FOR DOR
+=====================================
+These are things Claude cannot do (no account access / needs a human click).
+Do them in any order. Check them off as you go — nothing else in the
+roadmap depends on doing these in a specific sequence, but 0.3 (GSC)
+should happen before you expect any of the "indexed pages" or "organic
+traffic" numbers in the roadmap's Measurement table to mean anything.
+
+
+1. GOOGLE SEARCH CONSOLE (roadmap 0.3)
+----------------------------------------
+Why: without this, Google has no idea gigback.org exists, and we have
+zero visibility into whether the 6 guides are even being crawled.
+
+Steps:
+  a. Go to https://search.google.com/search-console
+  b. Add property → choose "URL prefix" → enter: https://gigback.org
+  c. Verify ownership. Easiest method since we're on Cloudflare Pages:
+     - GSC will give you a TXT record to add
+     - Go to Cloudflare Dashboard → gigback.org → DNS → Add record
+     - Type: TXT, Name: @, Content: (paste the value GSC gave you)
+     - Wait a few minutes, click Verify in GSC
+  d. Once verified: Sitemaps (left sidebar) → enter "sitemap.xml" → Submit
+     (the file already exists at https://gigback.org/sitemap.xml)
+  e. Request Indexing for each live page individually:
+     - Use the URL Inspection tool (search bar at top of GSC)
+     - Paste each full URL, wait for it to check, click "Request Indexing"
+     - Do this for all 11 pages below (takes ~2 min total):
+       https://gigback.org/
+       https://gigback.org/guides/
+       https://gigback.org/guides/annual-compliance-calendar
+       https://gigback.org/guides/proper-management-checklist
+       https://gigback.org/guides/board-meetings-protocol
+       https://gigback.org/guides/donor-retention-playbook
+       https://gigback.org/guides/excel-to-crm-migration
+       https://gigback.org/guides/ngo-tools-tasks-volunteers
+       https://gigback.org/author/dor-goldman
+
+  Note: every NEW guide published after this also needs its own
+  Request Indexing click — sitemap alone won't get a young site crawled
+  fast. This is a standing rule (see CLAUDE.md).
+
+
+2. CLOUDFLARE WEB ANALYTICS (roadmap 0.4)
+----------------------------------------
+Why: free, no cookie banner needed, gives us real traffic numbers for
+the roadmap's Measurement table (impressions/clicks come from GSC,
+but on-site behavior — which guide gets read, does the CRM link get
+clicked — comes from this).
+
+Steps:
+  a. Go to Cloudflare Dashboard → your account → Web Analytics
+     (or: https://dash.cloudflare.com/?to=/:account/web-analytics)
+  b. Add a site → gigback.org
+  c. Cloudflare gives you a single <script> tag
+  d. Paste that snippet here in chat, or tell Claude "here's the CF
+     Analytics snippet: [paste]" and Claude will add it to every page
+     in one pass (it needs to go right before </body> on all 11 HTML
+     files — a 2-minute job once you have the snippet, don't add it
+     yourself by hand across files, higher chance of a typo).
+
+
+3. BING WEBMASTER TOOLS (roadmap 0.6)
+----------------------------------------
+Why: cheap AI-SEO win — this is what feeds Bing/Copilot's index, and
+increasingly ChatGPT's browsing plugin uses Bing's index too. 10 minutes,
+free, no downside.
+
+Steps:
+  a. Go to https://www.bing.com/webmasters
+  b. Sign in, Add a site → gigback.org
+  c. Easiest verify option: Bing can usually import directly from your
+     already-verified Google Search Console property — look for
+     "Import from Google Search Console" during setup, it'll save you
+     re-doing the TXT record step.
+  d. Submit sitemap.xml same as GSC (there's a Sitemaps tab).
+  That's it — no per-page Request Indexing needed on Bing, the sitemap
+  submission is enough for a small site.
+
+
+4. OG IMAGE — CONVERT SVG TO PNG (leftover from roadmap 2.4)
+----------------------------------------
+What happened: Claude built a full social-share preview image as an
+SVG (the site's actual design system, correct colors/text) at
+gigback-labs/og.svg — but Facebook, Twitter/X, LinkedIn, and WhatsApp
+link previews require a PNG or JPG, not SVG. There's no tool available
+in this environment to do that conversion (no ImageMagick, no headless
+browser with file-save access), so this one step needs you.
+
+Steps (pick whichever is easiest):
+  Option A — fastest, no install:
+    a. Go to https://cloudconvert.com/svg-to-png
+    b. Upload gigback-labs/og.svg
+    c. Set output size to 1200 x 630 (should be the default given the
+       SVG's own dimensions, but double-check)
+    d. Download, rename to "og.png"
+    e. Drop the file into the gigback-labs/ repo root (same folder as
+       index.html)
+    f. Tell Claude "og.png is in the repo" and it'll commit + push —
+       the <meta property="og:image"> tags on every page already point
+       to https://gigback.org/og.png, so nothing else needs to change
+       once the file exists.
+
+  Option B — if you want to eyeball/tweak it first:
+    a. Open gigback-labs/og.svg directly in Chrome (drag the file in,
+       or File → Open)
+    b. It'll render at the correct 1200x630 proportions
+    c. Use any screenshot tool cropped to the SVG's exact bounds, or
+       still use Option A's converter for a pixel-perfect export
+    d. Same last steps as Option A (rename, drop in repo root, tell
+       Claude)
+
+  How to check it worked once live: paste https://gigback.org/ into
+  https://www.opengraph.xyz/ or Facebook's Sharing Debugger
+  (https://developers.facebook.com/tools/debug/) — you should see the
+  branded iris-colored preview card with "כלים דיגיטליים לעמותות
+  בישראל" instead of a blank/default preview.
+
+
+DONE-ALREADY, NOT LISTED ABOVE (for reference — no action needed):
+  - favicon.svg — done, live on every page, no manual step required
+  - sitemap.xml + robots.txt — done, live
+  - CLAUDE.md + hebrew-writing-rules.md — done

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3730A3"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1120" cy="60" r="260" fill="#ffffff" opacity="0.05"/>
+  <circle cx="60" cy="600" r="200" fill="#ffffff" opacity="0.05"/>
+
+  <!-- logo mark + wordmark, top-right (RTL brand reads right-to-left) -->
+  <rect x="1064" y="64" width="56" height="56" rx="13" fill="#ffffff"/>
+  <text x="1092" y="103" font-family="Arial, 'Segoe UI', sans-serif" font-size="32" font-weight="800" fill="#3730A3" text-anchor="middle">G</text>
+  <text x="1044" y="102" font-family="Arial, 'Segoe UI', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="end">GigBack Labs</text>
+
+  <!-- headline -->
+  <text x="1120" y="310" font-family="Arial, 'Segoe UI', sans-serif" font-size="66" font-weight="800" fill="#ffffff" text-anchor="end">כלים דיגיטליים</text>
+  <text x="1120" y="410" font-family="Arial, 'Segoe UI', sans-serif" font-size="66" font-weight="800" fill="#ffffff" text-anchor="end">לעמותות בישראל</text>
+
+  <!-- subline -->
+  <text x="1120" y="472" font-family="Arial, 'Segoe UI', sans-serif" font-size="28" font-weight="500" fill="#EEF2FF" text-anchor="end">CRM לתורמים · ניהול משימות · ממשל תקין · סוכני AI</text>
+
+  <!-- footer -->
+  <text x="1120" y="560" font-family="Arial, 'Segoe UI', sans-serif" font-size="24" font-weight="600" fill="#C7D2FE" text-anchor="end">gigback.org</text>
+</svg>
