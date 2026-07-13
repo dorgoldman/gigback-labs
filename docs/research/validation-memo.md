@@ -38,3 +38,11 @@ This doesn't mean GigBack CRM is a bad product. It means the current homepage pi
 - Timeline: no reason to slow down. This is a positioning correction, not a stop-and-rethink.
 
 **Bottom line for Dor:** proceed to Phase 2/3. When we do the landing-page fresh-eyes pass, revisit which product gets top billing and whether the Problem section's "English-only tools" claim needs a caveat. Everything else in the roadmap holds.
+
+## Addendum (2026-07-13) — Dor's read on the CRM gap
+
+Dor's insight while reading this memo, which sharpens finding #1 above: **donor CRM as a database isn't the gap — digitized, automated donor retention is.** This is the actual reason he built the CRM in the first place, and it's directly supported by the research: donor retention content in Hebrew is abundant as *advice* (thank-you flows, segmentation, newsletters — Amuta Info, Zecharia Landau) but "didactic, not tool-driven." Over 50% donor churn is cited as common, and nothing in the current Hebrew tool landscape *automates* retention — existing CRMs (IsraelGives, JGive, Fireberry) are databases + payment processing, not retention engines.
+
+This reframes GigBack CRM's differentiation from "Hebrew CRM" (not defensible, per finding #1) to **"the CRM that automates donor retention"** — timely thank-yous, re-engagement nudges, churn-risk flags, AI-drafted personalized follow-ups — which is defensible because no competitor currently does this. Confirmed by section 6 of `perplexity-baseline.md`: AI in Israeli fundraising today is "a writing & automation assistant," not a retention engine.
+
+**Action:** carry this into guide #4 (שימור תורמים) as the sharpest possible framing, and revisit the CRM section of the homepage during Phase 2 with this angle specifically — not "Hebrew CRM," but "the CRM that keeps your donors from disappearing."
