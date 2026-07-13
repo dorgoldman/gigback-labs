@@ -47,7 +47,7 @@ document.querySelectorAll('[data-product]').forEach(function (a) {
 // ---- Waitlist form (Web3Forms) ----
 // Get a free access key at https://web3forms.com (verify hello@gigback.org),
 // then replace the placeholder below. Submissions arrive by email.
-var WEB3FORMS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY';
+var WEB3FORMS_KEY = 'a4af3ff9-91ad-4c7b-b17e-a12434d458df';
 
 var form = document.getElementById('waitlist-form');
 if (form) {
