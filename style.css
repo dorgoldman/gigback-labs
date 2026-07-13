@@ -216,9 +216,9 @@ details p{margin-top:10px;font-size:.95rem}
 .hp{position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden}
 
 /* ---- footer ---- */
-footer{border-top:1px solid var(--border);padding:36px 0;font-size:.88rem;color:var(--text-subtle)}
-.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-footer a{color:var(--text-muted);text-decoration:none;margin-inline-end:18px}
+footer{border-top:1px solid var(--border);padding:36px 0;font-size:.88rem;color:var(--text-subtle);text-align:center}
+.footer-inner{display:flex;flex-direction:column;align-items:center;gap:12px}
+footer a{color:var(--text-muted);text-decoration:none;margin:0 9px}
 footer a:hover{color:var(--text)}
 
 /* ---- scroll animation ---- */
