@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי | GigBack Labs</title>
+<meta name="description" content="איך עוברים מגיליון אקסל מבולגן למערכת תורמים מסודרת, בלי לאבד תורם אחד בדרך. מדריך צעד-אחר-צעד לעמותה קטנה.">
+<link rel="canonical" href="https://gigback.org/guides/excel-to-crm-migration.html">
+<meta property="og:title" content="מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי">
+<meta property="og:description" content="איך עוברים בלי לאבד תורם אחד בדרך.">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%236366F1'/%3E%3Ctext x='50' y='68' font-size='52' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3EGL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי",
+  "datePublished": "2026-07-13",
+  "dateModified": "2026-07-13",
+  "author": { "@type": "Person", "name": "דור גולדמן", "url": "https://gigback.org/author/dor-goldman.html" },
+  "publisher": { "@type": "Organization", "name": "GigBack Labs", "url": "https://gigback.org" }
+}
+</script>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a class="wordmark" href="../index.html">GigBack <span>Labs</span></a>
+    <nav>
+      <a href="../index.html#products">מוצרים</a>
+      <a href="index.html">מדריכים</a>
+      <a href="../index.html#about">אודות</a>
+      <a href="https://gigback.io" target="_blank" rel="noopener">GigBack.io ↗</a>
+    </nav>
+  </div>
+</header>
+
+<div class="container breadcrumb">
+  <a href="../index.html">GigBack Labs</a> ‹ <a href="index.html">מדריכים</a> ‹ גיוס תרומות
+</div>
+
+<main>
+<article class="article">
+  <span class="eyebrow">גיוס תרומות</span>
+  <h1>מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי</h1>
+  <div class="article-meta">
+    <div class="avatar">ד"ג</div>
+    <div><a href="../author/dor-goldman.html">דור גולדמן</a> · 13 ביולי 2026 · 5 דקות קריאה</div>
+  </div>
+
+  <div class="article-body">
+    <p class="lede">רוב מנהלי העמותות שאני פוגש יודעים שהאקסל שלהם בעייתי. הם פשוט פוחדים מהמעבר יותר מהבעיה עצמה — פחד לאבד תורם, פחד מבלגן באמצע, פחד שיקח שבועות.</p>
+
+    <p>זה לא נכון. עם רשימה סבירה של תורמים, המעבר לוקח סוף שבוע. הנה איך עושים את זה בלי לאבד כלום.</p>
+
+    <h2>לפני שמתחילים: נקו את הגיליון, לא את המערכת החדשה</h2>
+    <p>הטעות הכי נפוצה היא לפתוח מערכת CRM חדשה ולהתחיל להזין נתונים ישר לתוכה. עדיף הפוך: קודם מנקים את האקסל הקיים, ורק אז מעבירים.</p>
+    <ul>
+      <li>מחקו שורות כפולות — אותו תורם שמופיע פעמיים עם איות שונה של השם.</li>
+      <li>אחדו עמודות טלפון ומייל לפורמט אחיד אחד (לא "050-1234567" בשורה אחת ו-"0501234567" בשורה הבאה).</li>
+      <li>סמנו תורמים לא פעילים בנפרד — אתם לא צריכים למחוק אותם, רק לדעת מי הם.</li>
+    </ul>
+
+    <h2>מבנה הנתונים שבאמת צריך</h2>
+    <p>לא צריך עשרים עמודות. ארבע עמודות עושות את רוב העבודה:</p>
+    <table>
+      <tr><th>עמודה</th><th>למה היא חשובה</th></tr>
+      <tr><td>שם ופרטי קשר</td><td>הבסיס, כמובן</td></tr>
+      <tr><td>תאריך תרומה אחרונה</td><td>המידע הכי חשוב לשימור — בלעדיו אי אפשר לדעת מי "נעלם"</td></tr>
+      <tr><td>סכום תרומה מצטבר</td><td>מי שתרם 5,000 ₪ לאורך שנתיים צריך יחס שונה ממי שתרם 50 ₪ פעם אחת</td></tr>
+      <tr><td>הסכמה ליצירת קשר</td><td>קריטי מבחינה משפטית — אל תשתמשו במייל של תורם בלי הסכמה מפורשת</td></tr>
+    </table>
+
+    <h2>סדר ההעברה: קודם התורמים הפעילים</h2>
+    <p>אל תנסו להעביר את כל ההיסטוריה בבת אחת. הסדר הנכון:</p>
+    <ol>
+      <li><strong>יום שישי:</strong> ניקוי הגיליון, כמו שתואר למעלה.</li>
+      <li><strong>שבת בבוקר:</strong> העברת התורמים הפעילים — מי שתרם ב-12 החודשים האחרונים. זה בדרך כלל 20–30% מהרשימה, אבל 80% מהערך.</li>
+      <li><strong>שבת אחר הצהריים:</strong> העברת שאר ההיסטוריה, בלי לחץ — הם כבר לא דחופים.</li>
+      <li><strong>ראשון:</strong> בדיקת מדגם — פתחו חמישה תיקי תורמים אקראיים ובדקו שהמידע נכון.</li>
+    </ol>
+    <p>אם יש לכם קרן משפחתית אחת או שתיים שתורמות סכומים גדולים, תתחילו מהן. תיק תורם עשיר ומדויק שווה יותר מעשרה תיקים חלקיים.</p>
+
+    <h2>מה שקורה בפועל אחרי המעבר</h2>
+    <p>ברגע שהתורמים הפעילים במערכת, ההבדל מורגש מיד: אתם רואים בבת אחת מי לא תרם 90 יום, מי תרם השבוע ועדיין לא קיבל תודה, ומי הכי משתלם להתקשר אליו אישית. זה בדיוק מה שאקסל לא נותן לכם לראות בהצצה אחת.</p>
+
+    <p>ב-<a href="../index.html#products">GigBack CRM</a> יש כלי ייבוא ישיר מאקסל בעברית, בדיוק כדי שסוף השבוע הזה יהיה קצר יותר.</p>
+  </div>
+</article>
+
+<div class="related-guides">
+  <h2>מדריכים קשורים</h2>
+  <a href="donor-retention-playbook.html">יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה</a>
+  <a href="ngo-tools-tasks-volunteers.html">Monday, ClickUp או וואטסאפ: מה באמת עובד לניהול מתנדבים בעברית</a>
+</div>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <a href="../privacy.html">פרטיות</a>
+      <a href="../terms.html">תנאי שימוש</a>
+      <a href="mailto:hello@gigback.org">צרו קשר</a>
+      <a href="https://gigback.io" target="_blank" rel="noopener">GigBack.io</a>
+    </div>
+    <div>GigBack Labs · חלק מהאקוסיסטם של GigBack</div>
+  </div>
+</footer>
+
+</body>
+</html>
