@@ -1,5 +1,8 @@
 // GigBack Labs — language toggle, scroll reveal, waitlist form
 
+// ---- Mobile nav toggle ----
+(function(){var b=document.querySelector('.nav-toggle'),n=document.querySelector('nav');if(b&&n)b.onclick=function(){n.classList.toggle('open')};})();
+
 // ---- Language ----
 var LANG_KEY = 'gigback-labs-lang';
 
