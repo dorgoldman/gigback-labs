@@ -13,8 +13,8 @@ function setLang(lang) {
     b.classList.toggle('active', b.dataset.setLang === lang);
   });
   document.title = lang === 'he'
-    ? 'GigBack Labs — טכנולוגיה לעמותות בישראל'
-    : 'GigBack Labs — Technology for Israeli NGOs';
+    ? 'GigBack Labs | טכנולוגיה לעמותות בישראל'
+    : 'GigBack Labs | Technology for Israeli NGOs';
   try { localStorage.setItem(LANG_KEY, lang); } catch (e) {}
 }
 
@@ -63,15 +63,15 @@ if (form) {
 
     if (WEB3FORMS_KEY === 'YOUR_WEB3FORMS_ACCESS_KEY') {
       msg.textContent = isHe
-        ? 'הטופס עדיין לא מחובר — כתבו לנו ל-hello@gigback.org'
-        : 'Form not connected yet — email us at hello@gigback.org';
+        ? 'הטופס עדיין לא מחובר. כתבו לנו ל-hello@gigback.org'
+        : 'Form not connected yet. Email us at hello@gigback.org';
       msg.className = 'form-msg err';
       return;
     }
 
     var data = new FormData(form);
     data.append('access_key', WEB3FORMS_KEY);
-    data.append('subject', 'GigBack Labs — waitlist signup');
+    data.append('subject', 'GigBack Labs: waitlist signup');
     data.append('from_name', 'gigback.org waitlist');
 
     btn.disabled = true;

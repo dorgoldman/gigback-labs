@@ -40,6 +40,8 @@ Goal: never re-explain context again; site ready to receive content.
 | 0.5 | `sitemap.xml` + `robots.txt` | files in repo | Haiku 4.5 |
 | 0.6 | Bing Webmaster Tools (free, feeds ChatGPT/Copilot answers — cheap AI-SEO win) | property verified | Manual (Dor), 10 min |
 
+**Status (2026-07-13):** 0.1, 0.2, 0.5 done. **0.3 (GSC), 0.4 (CF Analytics), 0.6 (Bing Webmaster) are manual Dor tasks, not yet confirmed done — check before Phase 3.5 relies on GSC data.**
+
 **Exit criteria:** a brand-new Claude session can read `CLAUDE.md` + `ROADMAP.md` and start producing correct work with zero verbal briefing.
 
 ## Phase 1 — Research & Validation (Weeks 1–2: Jul 13–27)
@@ -60,6 +62,8 @@ Suggested pillars (validate in 1.5 before committing):
 - **גיוס משאבים ותורמים** — donor relations, retention, CRM practices → feeds GigBack CRM
 - **כלים וטכנולוגיה לעמותות** — tool comparisons, AI for NGOs, workflows → feeds Tasks/Agents
 
+**Status (2026-07-13): ✅ Phase 1 complete.** All 6 sub-tasks done, validation memo approved, content map locked.
+
 **Exit criteria:** validation memo approved by Dor; top-6 topics chosen for Phase 3.
 
 ## Phase 2 — Landing Page Fresh-Eyes Upgrade (Week 3: Jul 27–Aug 3)
@@ -73,6 +77,8 @@ Goal: before adding sub-pages, make the home base as strong as it can be — inf
 | 2.3 | Navigation prep for content: add "מדריכים" to header nav + footer; design the guide-page template (same design system, article layout, author box, TOC, related-guides block) | `guides/_template.html` | Sonnet 5 |
 | 2.4 | OG image for social sharing (currently none) | `og.png` | /image skill or manual Canva |
 | 2.5 | Real favicon/logo pass if warranted (current: "GL" SVG) | asset | Dor decides; optional |
+
+**Status (2026-07-13):** Done out of order, ahead of Phase 3 (needed the guide template to publish guides). **2.3 done** (nav + guide template shipped and proven across 6 live guides). **2.1 (formal /ui-ux-pro-max review) not yet run** — today's session fixed 3 bugs Dor spotted by eye (mobile nav hidden, guides grid missing tablet breakpoint, em-dashes), but that was reactive QA, not the structured review this phase calls for. **2.2, 2.4, 2.5 not started** (no OG image yet, favicon still placeholder "GL" SVG).
 
 **Exit criteria:** Dor signs off the upgraded landing page; guide template approved.
 
@@ -89,6 +95,8 @@ Goal: **6 exceptional Hebrew guides** — quality that makes an NGO director boo
 | 3.5 | `/write-checklist` scoring before each publish (score against hebrew-writing-rules) | pass/fail per guide | Haiku 4.5 |
 
 Cadence: ~2 guides/week. Each guide = 1,500–2,500 words, cited Israeli sources, one inline mention of the relevant GigBack tool (natural, not pushy — one per article max).
+
+**Status (2026-07-13): ✅ Phase 3 functionally complete.** 3.1 (about page) covered via `index.html#about` section rather than a standalone page — working as designed, not a gap. 3.2 (author page) done. 3.3 (6 guides) done, published, Dor-approved. 3.4 (JSON-LD/meta) done. **3.5 (/write-checklist) was not formally run per-guide** — /stop-slop was applied during drafting, but not re-verified after HTML assembly, which is exactly what let the em-dashes through. **Not yet done: "indexed"** — guides are live but GSC Request Indexing hasn't been confirmed run (see Phase 0.3).
 
 **Exit criteria:** 6 guides live, indexed, each with author byline and schema.
 
@@ -151,3 +159,5 @@ Goal: rhythm, distribution, measurement.
 | 2026-07-13 | Phase 1.1 complete: 6 Perplexity Deep Research passes done, synthesized to `research/perplexity-baseline.md` | Validation memo verdict: **adjust, don't abandon.** "Hebrew+RTL+affordable" is NOT a moat for GigBack CRM — free Hebrew competitors already exist (IsraelGives, JGive, Fireberry, APT, etc). Real confirmed gaps are GigBack Tasks (Monday genuinely lacks Hebrew/RTL UI, sourced) and GigBack Org (governance/gap-mapping is manual/consultant-only today). Content strategy strongly validated — thin competition on donor-tech, governance-ops, and tool-comparison content. See `research/validation-memo.md` for full reasoning. |
 | 2026-07-13 | Content map reordered: governance + donor-retention guides now lead Phase 3, CRM-comparison demoted from flagship | Per validation memo — a CRM comparison piece would highlight our own CRM isn't the obvious price/feature winner yet; lead with validated, low-competition topics instead |
 | 2026-07-13 | Flagged: homepage Problem section's "English-only tools" framing overstates the CRM gap specifically | Revisit during Phase 2 /ui-ux-pro-max pass, not urgent standalone fix. Consider rebalancing which product gets hero billing — Tasks has the strongest sourced differentiation story |
+| 2026-07-13 | Phase 3.3 complete: all 6 cornerstone guides drafted, /stop-slop passed, Dor-approved, and published live | Full pipeline run per-guide (outline → draft → stop-slop → Dor approval → publish). Terminology rule locked: "רשם העמותות" always masculine grammatical treatment (never רשמת) |
+| 2026-07-13 | Post-publish QA pass: fixed mobile nav (was fully hidden below 860px with no toggle), guides grid missing a tablet breakpoint (jumped 3-col straight to 1-col), and ~40 em-dashes across every guide + landing/legal/author pages that had slipped past the stop-slop pass | Dor caught these on live review. Root cause: stop-slop was applied to guide prose during drafting but not re-checked after HTML markup was added, and the em-dash rule wasn't being enforced on meta/title/legal text at all. **Process fix:** future publishes should grep for `—` across the whole file (including title/meta tags), not just the prose the model just wrote. |
