@@ -1,0 +1,32 @@
+# GigBack Labs
+
+> GigBack Labs (gigback.org) is a free Hebrew-language content platform for people who run Israeli nonprofits (עמותות): directors, ops managers, board members, and donor-relations staff. Guides cover governance and compliance (ניהול תקין), donor fundraising and retention, and technology/tools for the third sector. Content is written and fact-checked by Dor Goldman, founder of GigBack, and cites primary Israeli sources (רשות המסים, רשם העמותות, kolzchut.org.il, and others) with visible last-updated dates.
+
+GigBack also builds free tools for Israeli nonprofits, referenced from the guides below: a donor CRM (GigBack CRM), a governance/compliance gap-mapper (GigBack Org), and a task manager for volunteer teams (GigBack Tasks). Product info: https://gigback.io
+
+## Guides: ניהול עמותה (governance & compliance)
+
+- [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar.md): the full annual deadline calendar for keeping ניהול תקין status, including what happens after a missed June 30 deadline.
+- [ניהול תקין לעמותות קטנות: צ'ק ליסט מעשי ומה שמפילים בו](https://gigback.org/guides/proper-management-checklist.md): the four conditions for ניהול תקין approval and where small nonprofits actually fail.
+- [ישיבת ועד שלא מבזבזת אף אחד: איך מנהלים ומתעדים אותה נכון](https://gigback.org/guides/board-meetings-protocol.md): how to run and document board meetings the way רשם העמותות expects.
+- [תרומה מעל 20,000 ₪ מחייבת לפרסם את שם התורם: איך הופכים את זה ליתרון](https://gigback.org/guides/regulator-major-donor-relationships.md): disclosure rules for large donations and managing the regulator/major-donor relationship.
+- [איך נרשמים למערכת התרומות הדיגיטלית לפני שהאישור לפי סעיף 46 בסיכון](https://gigback.org/guides/digital-donation-reporting-2026.md): the 2026 mandatory digital donation-reporting requirement for סעיף 46 organizations, including registration, מורשה על appointment, and what happens if you miss it.
+
+## Guides: גיוס תרומות (fundraising & donor relations)
+
+- [יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה](https://gigback.org/guides/donor-retention-playbook.md): a donor-retention playbook for small nonprofits with no marketing budget.
+- [מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי](https://gigback.org/guides/excel-to-crm-migration.md): how to migrate donor records from Excel to a CRM without losing anyone.
+- [איזה CRM הכי מתאים לעמותה קטנה בישראל? השוואה ישרה בין חמש האפשרויות](https://gigback.org/guides/ngo-crm-comparison.md): a neutral comparison of five CRM/donation-processing options used by Israeli nonprofits.
+- [בקשת תמיכה שלוקחת יום שלם? עם בינה מלאכותית זה שעה, אם עושים את זה נכון](https://gigback.org/guides/ai-fundraising-grant-writing.md): where AI genuinely helps with grant writing and fundraising, and where it doesn't.
+- [35% מהתרומה חוזרים אליכם במס: מה עוד כדאי לבדוק לפני שתורמים לעמותה](https://gigback.org/guides/donor-due-diligence-checklist.md): a donor due-diligence checklist and the section-46 tax-credit mechanics.
+
+## Guides: טכנולוגיה (tools & technology)
+
+- [Monday, ClickUp או וואטסאפ: מה באמת עובד לניהול מתנדבים בעברית](https://gigback.org/guides/ngo-tools-tasks-volunteers.md): why mainstream task tools fall short on Hebrew/RTL, and what to use instead for volunteer management.
+
+## About
+
+- [אודות GigBack Labs](https://gigback.org/index.html#about): the Labs story and the GigBack ecosystem.
+- [דור גולדמן, מייסד GigBack](https://gigback.org/author/dor-goldman.html): author bio and credentials.
+
+Each guide above is also available as a plain HTML page at the same path with `.html` instead of `.md`.
