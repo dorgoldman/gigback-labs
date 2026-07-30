@@ -19,6 +19,7 @@ GigBack also builds free tools for Israeli nonprofits, referenced from the guide
 - [איזה CRM הכי מתאים לעמותה קטנה בישראל? השוואה ישרה בין חמש האפשרויות](https://gigback.org/guides/ngo-crm-comparison.md): a neutral comparison of five CRM/donation-processing options used by Israeli nonprofits.
 - [בקשת תמיכה שלוקחת יום שלם? עם בינה מלאכותית זה שעה, אם עושים את זה נכון](https://gigback.org/guides/ai-fundraising-grant-writing.md): where AI genuinely helps with grant writing and fundraising, and where it doesn't.
 - [35% מהתרומה חוזרים אליכם במס: מה עוד כדאי לבדוק לפני שתורמים לעמותה](https://gigback.org/guides/donor-due-diligence-checklist.md): a donor due-diligence checklist and the section-46 tax-credit mechanics.
+- [איך עמותה קטנה מוצאת ומגישה בקשה לתמיכה ממשלתית או ממפעל הפיס, לא רק קרנות פרטיות](https://gigback.org/guides/government-grants-for-ngos.md): how to use the official government support site (tmichot.mof.gov.il) and Mifal HaPais's grant councils, sources most private-foundation-focused guides skip.
 
 ## Guides: טכנולוגיה (tools & technology)
 
