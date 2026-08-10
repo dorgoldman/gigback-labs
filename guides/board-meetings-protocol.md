@@ -1,6 +1,6 @@
 # ישיבת ועד שלא מבזבזת אף אחד: איך מנהלים ומתעדים אותה נכון
 
-[דור גולדמן](https://gigback.org/author/dor-goldman.html) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 5 דקות קריאה
+[דור גולדמן](https://gigback.org/author/dor-goldman) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 5 דקות קריאה
 
 חברי ועד בעמותה קטנה הם כמעט תמיד מתנדבים. יש להם עוד תפקיד, עוד ילדים, עוד ישיבה אחרי הישיבה הזאת. אם היא לא מנוהלת בקצרה ובמדויק, היא תהפוך למשהו שמנסים להימנע ממנו.
 
@@ -43,12 +43,12 @@
 
 עמותה שמגיעה לאסיפה הכללית באפריל בלי שהנושאים האלה עלו קודם, מגלה את הפערים מאוחר מדי.
 
-אנחנו בונים את [GigBack Org](https://gigback.org/index.html#products) בדיוק סביב זה: תבנית סדר יום שמזכירה מה חייב לעלות עד מתי, כדי שהפרוטוקול שיוצא מהישיבה כבר יהיה מוכן לרשם העמותות.
+אנחנו בונים את [GigBack Org](https://gigback.org/#products) בדיוק סביב זה: תבנית סדר יום שמזכירה מה חייב לעלות עד מתי, כדי שהפרוטוקול שיוצא מהישיבה כבר יהיה מוכן לרשם העמותות.
 
 ## מדריכים קשורים
 
-- [ניהול תקין לעמותות קטנות: צ'ק ליסט מעשי ומה שמפילים בו](https://gigback.org/guides/proper-management-checklist.html)
-- [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar.html)
+- [ניהול תקין לעמותות קטנות: צ'ק ליסט מעשי ומה שמפילים בו](https://gigback.org/guides/proper-management-checklist)
+- [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar)
 
 ---
-מקור: https://gigback.org/guides/board-meetings-protocol.html
+מקור: https://gigback.org/guides/board-meetings-protocol

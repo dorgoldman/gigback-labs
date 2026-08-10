@@ -27,7 +27,7 @@ GigBack also builds free tools for Israeli nonprofits, referenced from the guide
 
 ## About
 
-- [אודות GigBack Labs](https://gigback.org/index.html#about): the Labs story and the GigBack ecosystem.
-- [דור גולדמן, מייסד GigBack](https://gigback.org/author/dor-goldman.html): author bio and credentials.
+- [אודות GigBack Labs](https://gigback.org/#about): the Labs story and the GigBack ecosystem.
+- [דור גולדמן, מייסד GigBack](https://gigback.org/author/dor-goldman): author bio and credentials.
 
 Each guide above is also available as a plain HTML page at the same path with `.html` instead of `.md`.
