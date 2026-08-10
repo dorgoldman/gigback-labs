@@ -1,6 +1,6 @@
 # מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי
 
-[דור גולדמן](https://gigback.org/author/dor-goldman.html) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 5 דקות קריאה
+[דור גולדמן](https://gigback.org/author/dor-goldman) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 5 דקות קריאה
 
 רוב מנהלי העמותות שאני פוגש יודעים שהאקסל שלהם בעייתי. הם פשוט פוחדים מהמעבר יותר מהבעיה עצמה. פחד לאבד תורם, פחד מבלגן באמצע, פחד שיקח שבועות.
 
@@ -48,12 +48,12 @@
 
 ברגע שהתורמים הפעילים במערכת, ההבדל מורגש מיד: אתם רואים בבת אחת מי לא תרם 90 יום, מי תרם השבוע ועדיין לא קיבל תודה, ומי הכי משתלם להתקשר אליו אישית. זה בדיוק מה שאקסל לא נותן לכם לראות בהצצה אחת.
 
-ב-[GigBack CRM](https://gigback.org/index.html#products) יש כלי ייבוא ישיר מאקסל בעברית, בדיוק כדי שסוף השבוע הזה יהיה קצר יותר.
+ב-[GigBack CRM](https://gigback.org/#products) יש כלי ייבוא ישיר מאקסל בעברית, בדיוק כדי שסוף השבוע הזה יהיה קצר יותר.
 
 ## מדריכים קשורים
 
-- [יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה](https://gigback.org/guides/donor-retention-playbook.html)
-- [Monday, ClickUp או וואטסאפ: מה באמת עובד לניהול מתנדבים בעברית](https://gigback.org/guides/ngo-tools-tasks-volunteers.html)
+- [יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה](https://gigback.org/guides/donor-retention-playbook)
+- [Monday, ClickUp או וואטסאפ: מה באמת עובד לניהול מתנדבים בעברית](https://gigback.org/guides/ngo-tools-tasks-volunteers)
 
 ---
-מקור: https://gigback.org/guides/excel-to-crm-migration.html
+מקור: https://gigback.org/guides/excel-to-crm-migration

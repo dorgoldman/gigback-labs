@@ -1,6 +1,6 @@
 # בקשת תמיכה שלוקחת יום שלם? עם בינה מלאכותית זה שעה, אם עושים את זה נכון
 
-[דור גולדמן](https://gigback.org/author/dor-goldman.html) · 20 ביולי 2026 · עודכן לאחרונה: 20 ביולי 2026 · 7 דקות קריאה
+[דור גולדמן](https://gigback.org/author/dor-goldman) · 20 ביולי 2026 · עודכן לאחרונה: 20 ביולי 2026 · 7 דקות קריאה
 
 לפי סקירה של tzedek.me מיוני 2026, כ-70% מהעמותות כבר מאמינות שבינה מלאכותית יכולה להפחית עומס ולשפר תקשורת. בפועל, רוב מנהלות העמותות הקטנות שאנחנו מדברים איתן עדיין כותבות כל בקשת תמיכה מאפס, בלילה, אחרי שהתפקיד הרשמי שלהן נגמר.
 
@@ -86,8 +86,8 @@ ChatGPT ו-Claude הן נקודת ההתחלה הכי נפוצה, שתיהן ע�
 
 ## מדריכים קשורים
 
-- [יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה](https://gigback.org/guides/donor-retention-playbook.html)
-- [איזה CRM הכי מתאים לעמותה קטנה בישראל? השוואה ישרה בין חמש האפשרויות](https://gigback.org/guides/ngo-crm-comparison.html)
+- [יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה](https://gigback.org/guides/donor-retention-playbook)
+- [איזה CRM הכי מתאים לעמותה קטנה בישראל? השוואה ישרה בין חמש האפשרויות](https://gigback.org/guides/ngo-crm-comparison)
 
 ---
-מקור: https://gigback.org/guides/ai-fundraising-grant-writing.html
+מקור: https://gigback.org/guides/ai-fundraising-grant-writing

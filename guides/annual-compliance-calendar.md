@@ -1,6 +1,6 @@
 # איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה
 
-[דור גולדמן](https://gigback.org/author/dor-goldman.html) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 6 דקות קריאה
+[דור גולדמן](https://gigback.org/author/dor-goldman) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 6 דקות קריאה
 
 בדצמבר 2024 רשם העמותות ביטל את אישור הניהול התקין של כ-200 עמותות וחל"צים. לא כי הן עשו משהו רע. הן פשוט לא הגישו דוח בזמן.
 
@@ -81,12 +81,12 @@
 
 אם אתם מתחילים לעבוד על דוח מילולי בשבוע האחרון של יוני, זה כבר מאוחר מדי לתקן סתירות מול הדוח הכספי. הזמן הנכון להתחיל הוא אפריל.
 
-זה בדיוק סוג הדבר שאנחנו בונים ב-[GigBack Org](https://gigback.org/index.html#products): לוח שנה חי שמזכיר לכם מתי כל מסמך צריך לצאת לדרך, לא רק מתי הוא צריך להיות מוגש.
+זה בדיוק סוג הדבר שאנחנו בונים ב-[GigBack Org](https://gigback.org/#products): לוח שנה חי שמזכיר לכם מתי כל מסמך צריך לצאת לדרך, לא רק מתי הוא צריך להיות מוגש.
 
 ## מדריכים קשורים
 
-- [ניהול תקין לעמותות קטנות: צ'ק ליסט מעשי ומה שמפילים בו](https://gigback.org/guides/proper-management-checklist.html)
-- [ישיבת ועד שלא מבזבזת אף אחד: איך מנהלים ומתעדים אותה נכון](https://gigback.org/guides/board-meetings-protocol.html)
+- [ניהול תקין לעמותות קטנות: צ'ק ליסט מעשי ומה שמפילים בו](https://gigback.org/guides/proper-management-checklist)
+- [ישיבת ועד שלא מבזבזת אף אחד: איך מנהלים ומתעדים אותה נכון](https://gigback.org/guides/board-meetings-protocol)
 
 ---
-מקור: https://gigback.org/guides/annual-compliance-calendar.html
+מקור: https://gigback.org/guides/annual-compliance-calendar

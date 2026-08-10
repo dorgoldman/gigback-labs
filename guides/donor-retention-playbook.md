@@ -1,6 +1,6 @@
 # יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה
 
-[דור גולדמן](https://gigback.org/author/dor-goldman.html) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 6 דקות קריאה
+[דור גולדמן](https://gigback.org/author/dor-goldman) · 13 ביולי 2026 · עודכן לאחרונה: 4 באוגוסט 2026 · 6 דקות קריאה
 
 תורם שלא מקבל יחס אישי, לא רואה מה קרה עם הכסף שלו, ומרגיש שהוא שורה ברשימת תפוצה, לא יתרום שוב. וזה קורה ליותר מחצי מהתורמים בעמותה ממוצעת.
 
@@ -48,12 +48,12 @@
 2. **כתבו תבנית תודה אחת טובה,** לא חמש. אחת אישית מספיק, כל עוד היא יוצאת תוך יומיים.
 3. **קבעו יום קבוע בחודש לניוזלטר קצר,** אפילו שלוש שורות עם תמונה אחת. עדיף רציף וקצר על מרשים ומזדמן.
 
-אם אתם רוצים לראות איך זה נראה כשהתזכורות האלה קורות אוטומטית, ולא תלויות בזה שמישהו יזכור, כדאי להציץ ב-[GigBack CRM](https://gigback.org/index.html#products).
+אם אתם רוצים לראות איך זה נראה כשהתזכורות האלה קורות אוטומטית, ולא תלויות בזה שמישהו יזכור, כדאי להציץ ב-[GigBack CRM](https://gigback.org/#products).
 
 ## מדריכים קשורים
 
-- [מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי](https://gigback.org/guides/excel-to-crm-migration.html)
-- [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar.html)
+- [מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי](https://gigback.org/guides/excel-to-crm-migration)
+- [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar)
 
 ---
-מקור: https://gigback.org/guides/donor-retention-playbook.html
+מקור: https://gigback.org/guides/donor-retention-playbook
