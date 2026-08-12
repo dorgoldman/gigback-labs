@@ -11,6 +11,7 @@ GigBack also builds free tools for Israeli nonprofits, referenced from the guide
 - [ישיבת ועד שלא מבזבזת אף אחד: איך מנהלים ומתעדים אותה נכון](https://gigback.org/guides/board-meetings-protocol.md): how to run and document board meetings the way רשם העמותות expects.
 - [תרומה מעל 20,000 ₪ מחייבת לפרסם את שם התורם: איך הופכים את זה ליתרון](https://gigback.org/guides/regulator-major-donor-relationships.md): disclosure rules for large donations and managing the regulator/major-donor relationship.
 - [איך נרשמים למערכת התרומות הדיגיטלית לפני שהאישור לפי סעיף 46 בסיכון](https://gigback.org/guides/digital-donation-reporting-2026.md): the 2026 mandatory digital donation-reporting requirement for סעיף 46 organizations, including registration, מורשה על appointment, and what happens if you miss it.
+- [כמה אנשים השתתפו זה לא "זה עבד": איך עמותה קטנה מתחילה למדוד אימפקט בלי יועץ חיצוני](https://gigback.org/guides/measuring-impact-for-ngos.md): the difference between outputs and outcomes, how to build a theory of change yourself for free, and when Midot's paid effectiveness certification is actually worth it.
 
 ## Guides: גיוס תרומות (fundraising & donor relations)
 
