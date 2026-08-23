@@ -20,4 +20,4 @@
 9. מערכת יחסים עם רגולטורים ותורמים גדולים
 10. מדריך למשפחות וקרנות ישראליות לתמיכה אפקטיבית בעמותות (donor-side, lower priority — different audience)
 
-Status: **awaiting Dor's approval** before Phase 3 drafting begins.
+Status: **complete.** Phase 3 (items 1–6) and the backlog (items 7–10) are all drafted, published, and Dor-approved via the standing per-page PR-approval gate — see `docs/ROADMAP.md`'s decision log and phase-status table for dates.
