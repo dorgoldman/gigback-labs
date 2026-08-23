@@ -1,0 +1,8 @@
+# Secrets — added during Mac migration 2026-08-23
+.env
+.env.*
+!.env.example
+client_secret.json
+*.pem
+.DS_Store
+node_modules/
