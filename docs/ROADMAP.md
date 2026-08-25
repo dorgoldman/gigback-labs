@@ -35,12 +35,12 @@ Goal: never re-explain context again; site ready to receive content.
 |---|---|---|---|---|
 | 0.1 | ✅ | Project `CLAUDE.md` — stack, rules, links, session protocol | `CLAUDE.md` at repo root | Sonnet 5 |
 | 0.2 | ✅ | Hebrew writing rules for GigBack (adapt stop-slop + Maxit rules to NGO domain) | `docs/hebrew-writing-rules.md` | Fable/Opus once (this file trains every future cheap model — worth it) |
-| 0.3 | ⬜ | GSC: add gigback.org property, submit sitemap, request indexing for `/` | GSC verified | Manual (Dor) + Sonnet guidance |
+| 0.3 | ✅ | GSC: add gigback.org property, submit sitemap, request indexing for `/` | GSC verified | Manual (Dor) + Sonnet guidance |
 | 0.4 | ⬜ | Analytics: Cloudflare Web Analytics snippet (free, no cookies, no consent banner needed) | 1 script tag | Haiku 4.5 |
 | 0.5 | ✅ | `sitemap.xml` + `robots.txt` | files in repo | Haiku 4.5 |
 | 0.6 | ⬜ | Bing Webmaster Tools (free, feeds ChatGPT/Copilot answers — cheap AI-SEO win) | property verified | Manual (Dor), 10 min |
 
-**Status (2026-07-13):** 0.1, 0.2, 0.5 done. **0.3 (GSC), 0.4 (CF Analytics), 0.6 (Bing Webmaster) are manual Dor tasks — step-by-step instructions in `docs/manual-tasks.txt`.** Not yet confirmed done; check before Phase 3.5 relies on GSC data.
+**Status (2026-08-25, corrects the 2026-07-13 line — see agency SeoGB T9):** 0.1, 0.2, 0.3, 0.5 done. **0.3 confirmed done, not just "not yet confirmed":** the agency's GSC API access has been live since 2026-07-31 (`C:\Users\goldm\.seo-gsc-token.json`) and has pulled real Search Analytics data every week since (`agency/ops/gsc-history.csv`) — that access is only possible once site ownership is verified in GSC, so 0.3 is proven done by the data itself, not by a checkbox. **0.4 (CF Analytics) confirmed still NOT done** — grepped the repo for the Cloudflare Web Analytics beacon script, zero matches, no snippet on any page. **0.6 (Bing Webmaster) still unconfirmed** — nothing in this repo can verify a Bing property; still Dor's manual step per `docs/manual-tasks.txt`.
 
 **Exit criteria:** a brand-new Claude session can read `CLAUDE.md` + `ROADMAP.md` and start producing correct work with zero verbal briefing.
 
