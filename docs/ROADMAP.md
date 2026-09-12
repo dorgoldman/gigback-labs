@@ -122,13 +122,13 @@ Goal: rhythm, distribution, measurement.
 | # | Done | Task | Output | Model / Tool |
 |---|---|---|---|---|
 | 5.1 | ⬜ | Cadence: 1–2 guides/week through the pipeline (scout suggests → Dor picks → agent drafts → Dor approves) | ~8–10 more guides | pipeline models |
-| 5.2 | ⬜ | Distribution: share each guide to relevant Hebrew NGO groups (Facebook, LinkedIn, מנהיגות אזרחית forums) — Dor posts, Claude drafts the share copy | share kit per guide | Haiku 4.5 |
+| 5.2 | ✅ | Distribution: share each guide to relevant Hebrew NGO groups (Facebook, LinkedIn, מנהיגות אזרחית forums) — Dor posts, Claude drafts the share copy | share kit per guide | Haiku 4.5 |
 | 5.3 | ⬜ | Directory/backlink layer: Israeli civic-tech directories, tool listings for the CRM | `docs/reports/backlinks.md` | Sonnet 5 + /directory-submissions |
-| 5.4 | ⬜ | AI-SEO check: do ChatGPT/Perplexity/Claude cite gigback.org for עמותה questions? Baseline + monthly | `docs/reports/ai-seo-baseline.md` | Sonnet 5 + /ai-seo |
+| 5.4 | 🟡 | AI-SEO check: do ChatGPT/Perplexity/Claude cite gigback.org for עמותה questions? Baseline + monthly | `docs/reports/ai-seo-baseline.md` | Sonnet 5 + /ai-seo |
 | 5.5 | ⬜ | Monthly GSC review: queries, impressions, CTR → retitle/refresh underperformers | monthly notes in this file | Haiku 4.5 pulls data, Sonnet 5 recommends |
 | 5.6 | ⬜ | Month-3 strategy review: what ranked, what converted to CRM demo clicks, English-content decision, waitlist growth | updated ROADMAP | Fable/Opus + Dor (consider /ccr session) |
 
-**Status (2026-07-13): not started.**
+**Status (2026-09-12, corrects the 2026-07-13 "not started" line — see agency SeoGB T47):** **5.2 done** — share-copy kit for all 12 live guides shipped 2026-08-07 (`docs/reports/share-copy-kit.md`, PR gigback-labs#12, approved). **5.4 partial, correctly 🟡 not ⬜** — first AI-citation baseline ran 2026-08-08 (`docs/reports/ai-seo-baseline.md`), but the self-citation question (the point of the check) is still unanswered pending a post-fix re-sweep only Dor can run (`ops/run-agy-visibility.ps1 -Domain gigback-org`, agency repo); no newer sweep exists as of this correction. **5.1, 5.3, 5.5, 5.6 genuinely not started.**
 
 ## Measurement (check monthly, log below)
 
@@ -165,3 +165,4 @@ Goal: rhythm, distribution, measurement.
 | 2026-07-13 | Flagged: homepage Problem section's "English-only tools" framing overstates the CRM gap specifically | Revisit during Phase 2 /ui-ux-pro-max pass, not urgent standalone fix. Consider rebalancing which product gets hero billing — Tasks has the strongest sourced differentiation story |
 | 2026-07-13 | Phase 3.3 complete: all 6 cornerstone guides drafted, /stop-slop passed, Dor-approved, and published live | Full pipeline run per-guide (outline → draft → stop-slop → Dor approval → publish). Terminology rule locked: "רשם העמותות" always masculine grammatical treatment (never רשמת) |
 | 2026-07-13 | Post-publish QA pass: fixed mobile nav (was fully hidden below 860px with no toggle), guides grid missing a tablet breakpoint (jumped 3-col straight to 1-col), and ~40 em-dashes across every guide + landing/legal/author pages that had slipped past the stop-slop pass | Dor caught these on live review. Root cause: stop-slop was applied to guide prose during drafting but not re-checked after HTML markup was added, and the em-dash rule wasn't being enforced on meta/title/legal text at all. **Process fix:** future publishes should grep for `—` across the whole file (including title/meta tags), not just the prose the model just wrote. |
+| 2026-09-12 | Fixed stale Phase 5 status table — 5.2 (share-copy kit) and 5.4 (AI-citation baseline) had shipped deliverables in `docs/reports/` since August but the table still read "not started" from 2026-07-13 | Same doc-staleness pattern this agent has caught twice before (T9's 0.3 GSC line, T11's content-map status line) — this file is read every session and outranks the agent's own TASKS.md, so a stale row here can misdirect future work. 5.4 stays 🟡, not ✅ — the actual self-citation answer is still blocked on Dor's manual re-sweep. |
