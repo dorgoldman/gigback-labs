@@ -1,6 +1,6 @@
 # GigBack Labs
 
-> GigBack Labs (gigback.org) is a free Hebrew-language content platform for people who run Israeli nonprofits (עמותות): directors, ops managers, board members, and donor-relations staff. Guides cover governance and compliance (ניהול תקין), donor fundraising and retention, and technology/tools for the third sector. Content is written and fact-checked by Dor Goldman, founder of GigBack, and cites primary Israeli sources (רשות המסים, רשם העמותות, kolzchut.org.il, and others) with visible last-updated dates.
+> GigBack Labs (gigback.org) is an NGO tech lab building free and affordable Hebrew-first software tools for Israeli nonprofits (עמותות). It also publishes a free Hebrew-language guide library for the people who run them: directors, ops managers, board members, and donor-relations staff. Guides cover governance and compliance (ניהול תקין), donor fundraising and retention, and technology/tools for the third sector. Content is written and fact-checked by Dor Goldman, founder of GigBack, and cites primary Israeli sources (רשות המסים, רשם העמותות, kolzchut.org.il, and others) with visible last-updated dates.
 
 GigBack also builds free tools for Israeli nonprofits, referenced from the guides below: a donor CRM (GigBack CRM), a governance/compliance gap-mapper (GigBack Org), and a task manager for volunteer teams (GigBack Tasks). Product info: https://gigback.io
 
