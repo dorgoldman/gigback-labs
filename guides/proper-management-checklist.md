@@ -76,6 +76,7 @@
 
 - [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar)
 - [ישיבת ועד שלא מבזבזת אף אחד: איך מנהלים ומתעדים אותה נכון](https://gigback.org/guides/board-meetings-protocol)
+- [כמה אנשים השתתפו זה לא "זה עבד": איך עמותה קטנה מתחילה למדוד אימפקט בלי יועץ חיצוני](https://gigback.org/guides/measuring-impact-for-ngos)
 
 ---
 מקור: https://gigback.org/guides/proper-management-checklist

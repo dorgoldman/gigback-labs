@@ -59,6 +59,7 @@
 
 - [מאקסל ל-CRM בסוף שבוע אחד: מדריך מעשי](https://gigback.org/guides/excel-to-crm-migration)
 - [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar)
+- [בקשת תמיכה שלוקחת יום שלם? עם בינה מלאכותית זה שעה, אם עושים את זה נכון](https://gigback.org/guides/ai-fundraising-grant-writing)
 
 ---
 מקור: https://gigback.org/guides/donor-retention-playbook

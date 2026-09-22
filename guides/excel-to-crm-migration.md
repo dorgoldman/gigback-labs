@@ -59,6 +59,7 @@
 
 - [יותר מחצי מהתורמים לא חוזרים: איך עוצרים את זה](https://gigback.org/guides/donor-retention-playbook)
 - [Monday, ClickUp או וואטסאפ: מה באמת עובד לניהול מתנדבים בעברית](https://gigback.org/guides/ngo-tools-tasks-volunteers)
+- [לא כל עמותה חייבת לרשום מאגר מידע ולמנות ממונה פרטיות: מה תיקון 13 באמת דורש ממאגר התורמים שלכם](https://gigback.org/guides/privacy-law-amendment-13-ngos)
 
 ---
 מקור: https://gigback.org/guides/excel-to-crm-migration

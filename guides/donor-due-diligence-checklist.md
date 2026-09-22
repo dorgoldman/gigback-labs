@@ -86,6 +86,7 @@
 
 - [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar)
 - [תרומה מעל 20,000 ₪ מחייבת לפרסם את שם התורם: איך הופכים את זה ליתרון](https://gigback.org/guides/regulator-major-donor-relationships)
+- [איך עמותה קטנה מוצאת ומגישה בקשה לתמיכה ממשלתית או ממפעל הפיס, לא רק קרנות פרטיות](https://gigback.org/guides/government-grants-for-ngos)
 
 ---
 מקור: https://gigback.org/guides/donor-due-diligence-checklist
