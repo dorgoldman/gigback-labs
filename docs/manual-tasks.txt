@@ -78,46 +78,15 @@ Steps:
   submission is enough for a small site.
 
 
-4. OG IMAGE — CONVERT SVG TO PNG (leftover from roadmap 2.4)
-----------------------------------------
-What happened: Claude built a full social-share preview image as an
-SVG (the site's actual design system, correct colors/text) at
-gigback-labs/og.svg — but Facebook, Twitter/X, LinkedIn, and WhatsApp
-link previews require a PNG or JPG, not SVG. There's no tool available
-in this environment to do that conversion (no ImageMagick, no headless
-browser with file-save access), so this one step needs you.
-
-Steps (pick whichever is easiest):
-  Option A — fastest, no install:
-    a. Go to https://cloudconvert.com/svg-to-png
-    b. Upload gigback-labs/og.svg
-    c. Set output size to 1200 x 630 (should be the default given the
-       SVG's own dimensions, but double-check)
-    d. Download, rename to "og.png"
-    e. Drop the file into the gigback-labs/ repo root (same folder as
-       index.html)
-    f. Tell Claude "og.png is in the repo" and it'll commit + push —
-       the <meta property="og:image"> tags on every page already point
-       to https://gigback.org/og.png, so nothing else needs to change
-       once the file exists.
-
-  Option B — if you want to eyeball/tweak it first:
-    a. Open gigback-labs/og.svg directly in Chrome (drag the file in,
-       or File → Open)
-    b. It'll render at the correct 1200x630 proportions
-    c. Use any screenshot tool cropped to the SVG's exact bounds, or
-       still use Option A's converter for a pixel-perfect export
-    d. Same last steps as Option A (rename, drop in repo root, tell
-       Claude)
-
-  How to check it worked once live: paste https://gigback.org/ into
-  https://www.opengraph.xyz/ or Facebook's Sharing Debugger
-  (https://developers.facebook.com/tools/debug/) — you should see the
-  branded iris-colored preview card with "כלים דיגיטליים לעמותות
-  בישראל" instead of a blank/default preview.
-
-
 DONE-ALREADY, NOT LISTED ABOVE (for reference — no action needed):
   - favicon.svg — done, live on every page, no manual step required
   - sitemap.xml + robots.txt — done, live
   - CLAUDE.md + hebrew-writing-rules.md — done
+  - og.png (roadmap 2.4) — done. Was listed above as a pending manual
+    SVG→PNG conversion; the file has actually been in the repo and
+    live at https://gigback.org/og.png since 2026-07-22 (commit
+    6ebc6da) — confirmed 2026-09-27 via curl (200, image/png, byte
+    count matches). This item sat stale for over two months; if you
+    want the "does the preview card render right" check, paste
+    https://gigback.org/ into https://www.opengraph.xyz/ or Facebook's
+    Sharing Debugger, but the file itself needs no further action.
