@@ -86,6 +86,7 @@
 
 - [איך לא לאבד את אישור הניהול התקין: לוח השנה המלא לעמותה קטנה](https://gigback.org/guides/annual-compliance-calendar)
 - [תרומה מעל 20,000 ₪ מחייבת לפרסם את שם התורם: איך הופכים את זה ליתרון](https://gigback.org/guides/regulator-major-donor-relationships)
+- [מימון המונים לעמותה בישראל: איזו פלטפורמה מתאימה, ומתי התורם לא מקבל קבלה לפי סעיף 46](https://gigback.org/guides/crowdfunding-for-israeli-ngos)
 
 ---
 מקור: https://gigback.org/guides/government-grants-for-ngos
