@@ -3,6 +3,22 @@
 // ---- Mobile nav toggle ----
 (function(){var b=document.querySelector('.nav-toggle'),n=document.querySelector('nav');if(b&&n)b.onclick=function(){n.classList.toggle('open')};})();
 
+// ---- Land on the #section after load ----
+// html has smooth scrolling; the browser's own jump to a #hash on load gets cancelled by late layout shifts,
+// so a link like /#faq from another page left the reader at the top. Jump again once everything has loaded.
+// Not on back/forward or reload, where the browser restores the reader's own position.
+(function () {
+  if (!location.hash || location.hash.length < 2) return;
+  var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+  if (nav && (nav.type === 'back_forward' || nav.type === 'reload')) return;
+  function go() {
+    var t;
+    try { t = document.getElementById(decodeURIComponent(location.hash.slice(1))); } catch (e) {}
+    if (t) t.scrollIntoView({ behavior: 'instant', block: 'start' });
+  }
+  if (document.readyState === 'complete') go(); else window.addEventListener('load', go);
+})();
+
 // ---- Language ----
 var LANG_KEY = 'gigback-labs-lang';
 
